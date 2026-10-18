@@ -56,4 +56,4 @@ Backend available at http://localhost:8000
 
 ## Implementation Status
 
-Nothing built yet. Starting from scratch.
+- PL-3: Mutual NDA creator in `frontend/` (Next.js static export, no backend yet). The user fills a form, sees a live preview and downloads a PDF. See `frontend/README.md`.

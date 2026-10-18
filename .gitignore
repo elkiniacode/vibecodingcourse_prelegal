@@ -4,18 +4,20 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+# Packaging dirs are anchored to the repo root so they don't swallow
+# frontend source folders such as frontend/src/lib/
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+/.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -24,9 +26,9 @@ MANIFEST
 # Virtual environments
 .env
 .venv
-env/
+/env/
 venv/
-ENV/
+/ENV/
 
 # UV
 .uv/
@@ -34,7 +36,7 @@ ENV/
 # FastAPI / Python web
 *.log
 local_settings.py
-instance/
+/instance/
 
 # Testing
 .tox/
@@ -66,9 +68,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-
-# Next.js production
-build/
 
 # Vercel
 .vercel
